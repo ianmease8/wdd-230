@@ -1,0 +1,80 @@
+a {
+    color: navy;
+}
+
+li {
+    list-style-type: circle;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cheese {
+    display:grid;
+    align-items: center;
+    grid-template-columns: auto 250px auto;
+    background-color: orange;
+    justify-content: center;
+
+  }
+main {
+    display:flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* header{
+    display:flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ } */
+img{
+    height: 100%;
+    width: 100px
+} 
+h1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+
+
+    display:flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.food{
+    display:flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.burger{
+    display:grid;
+    align-items: center;
+    grid-template-rows: auto auto;
+    background-color: orange;
+    justify-content: center;
+}
+
+/* body > header {
+    position: fixed;
+    top: 0;
+  }
+  body > footer {
+    position: fixed;
+    bottom: 0;
+  } */
+  
