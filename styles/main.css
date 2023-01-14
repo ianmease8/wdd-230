@@ -10,14 +10,19 @@ header{
     display:flex;
     justify-content: center;
     align-items: center;
-    border-radius: 1000px;
+    border-radius: 10px;
+    margin-top: 30px;
 
+}
+p{
+    font-size: medium;
 }
 .cheese {
     display:grid;
-    align-items: center;
+    align-self: center;
+    text-align: center;
     grid-template-columns: auto 250px auto;
-    background-color: orange;
+    background-color: darkorange;
     justify-content: center;
 
   }
@@ -37,7 +42,9 @@ main {
  } */
 img{
     height: 100%;
-    width: 100px
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 20px;
 } 
 h1{
     display:flex;
@@ -47,13 +54,12 @@ h1{
     align-items: center;
 }
 footer{
-
-
     display:flex;
     flex-direction: column; 
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 }
 .food{
     display:flex;
@@ -61,13 +67,21 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-size: large;
+}
+li{
+    font-size: large;
 }
 .burger{
-    display:grid;
-    align-items: center;
-    grid-template-rows: auto auto;
-    background-color: orange;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
+    background-color: darkorange;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* body > header {
