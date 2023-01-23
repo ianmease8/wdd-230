@@ -64,10 +64,12 @@ nav a:hover {
 
 
 img{
+    display: flex;
     justify-content: center;
 }
 
 ul{
+    display: flex;
     justify-content: center;
 }
 footer{
