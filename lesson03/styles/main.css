@@ -14,14 +14,6 @@ p {
     font-size: 1.3em;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 50px;
-
-}
-
-
 /*
 colors 
 black                       #000000
@@ -70,7 +62,11 @@ nav a:hover {
 	color: #3A3D47;
 }
 
-
+footer{
+    color:white;
+    background-color: black;
+    margin-top: 50px;
+}
 @media (min-width: 37.5em) {
 	nav {
 		flex-direction: row;
