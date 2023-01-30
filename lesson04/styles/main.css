@@ -25,6 +25,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 1.5fr 2fr 1fr;
     background-color: #000000;
+    color: #7BB2D9;
 }
 
 header h1, h2{
@@ -75,10 +76,6 @@ a {
 .responsive a{
     display: block;
 }
-
-/* main {
-    background-color: #FAF8F0;    
-} */
 
 .hero {
     margin-top: 20px;
@@ -170,7 +167,7 @@ footer img{
     width: 150px;
 }
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 1000px){
     a:first-child{
         display: none;
     }
@@ -314,40 +311,3 @@ footer img{
         color: #7BB2D9;
     }
 }
-
-/* nav{
-    display:flex;
-    justify-content: left;
-    flex-direction: column;
-}
-
-a{
-    display: none;
-    padding: 15px;
-}
-a:first-child{
-    display: block;
-    text-decoration: none;
-    font-size: 2em;
-}
-.responsive a{
-    display:block;
-}
-
-
-
-
-
-
-@media screen and (min-width: 650px) {
-    a:first-child{
-        display:none;
-    }
-    a{
-        display: block;
-    }
-    nav{
-        flex-direction: row;
-        justify-content: center;
-    }
-} */
