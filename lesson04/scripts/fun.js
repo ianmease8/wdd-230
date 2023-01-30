@@ -5,9 +5,9 @@ const button = document.querySelector('.btn');
 // }
 
 
-button.addEventListener('click', () => {
-    button.classList.toggle('newstyle');
-});
+// button.addEventListener('click', () => {
+//     button.classList.toggle('newstyle');
+// });
 
 
 // hamburger button js 
