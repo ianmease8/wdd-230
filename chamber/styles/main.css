@@ -16,9 +16,6 @@ p,li {
     color: #7BB2D9
 }
 
-.navigation{
-    color: #7BB2D9
-}
 /* .newstyle{
     background-color: red;
 } */
@@ -66,7 +63,7 @@ a {
     display: none;
     padding: 15px;
     justify-content: left;
-    color: #3a3d47;
+    color: #7BB2D9;
     text-decoration: none;
 }
 
@@ -171,7 +168,7 @@ footer img{
     width: 150px;
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 650px){
     a:first-child{
         display: none;
     }
