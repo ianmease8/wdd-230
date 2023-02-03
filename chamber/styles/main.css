@@ -43,7 +43,10 @@ header h2{
 header img{
     width: 100%;
 }
-
+.wednesday-banner{
+    display:none;
+    justify-content: center;
+}
 nav {
     grid-column: -2/-1;
     display: flex;
