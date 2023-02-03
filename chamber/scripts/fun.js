@@ -20,7 +20,7 @@ hambutton.addEventListener('click', () =>{
 
 let date = new Date();
 let year = date.getFullYear();
-
+const now = new Date();
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
 
 document.querySelector('#top-date').innerHTML= fulldateUK;
