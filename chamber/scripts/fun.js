@@ -23,7 +23,7 @@ let year = date.getFullYear();
 
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
 
-document.querySelector('#top-date').innerHTML= fulldateUK
+document.querySelector('#top-date').innerHTML= fulldateUK;
 document.querySelector('#feets').innerHTML ='&copy;'+ year; 
 
 let currentdate = document.lastModified;
