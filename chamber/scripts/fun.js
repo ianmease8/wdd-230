@@ -1,13 +1,13 @@
-const button = document.querySelector('.btn');
+const button = document.querySelector('.button');
 
 // function show(){
 //     button.classList.add('newstyle');
 // }
 
 
-// button.addEventListener('click', () => {
-//     button.classList.toggle('newstyle');
-// });
+button.addEventListener('click', () => {
+    button.classList.toggle('newstyle');
+});
 
 
 // hamburger button js 

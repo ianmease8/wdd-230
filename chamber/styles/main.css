@@ -15,9 +15,13 @@ p,li {
     font-size: 1.3em;
     color: #7BB2D9
 }
-
+.button{
+    background-color: #7BB2D9;
+}
 /*Hamburger menu / repsonsive menu */
-
+.newstyle{
+    background-color: #9E9577;
+}
 header{
     display: grid;
     grid-template-columns: 1fr 1.5fr 2fr 1fr;
@@ -43,9 +47,16 @@ header h2{
 header img{
     width: 100%;
 }
+#top-date{
+    justify-content: center;
+    background-color: #000000;
+    color: #7BB2D9;
+}
 .wednesday-banner{
     display:none;
     justify-content: center;
+    background-color: #000000;
+    color:#7BB2D9;
 }
 nav {
     grid-column: -2/-1;
