@@ -308,7 +308,7 @@ footer img{
 @media screen and (min-width: 1200px){
     main {
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: .5fr .5fr .5fr;
+        grid-template-rows: .5fr .2fr .5fr none;
     }
     nav a:hover {
         background-color: #9E9577;
@@ -332,9 +332,11 @@ footer img{
         grid-row: 2/3;
         height: 95%;
         width: 95%;
+
     }
     
     .news-letter{
+        margin-top:20px;
         grid-column: 2/3;
         grid-row: 3/4;
         height: 95%;
@@ -356,9 +358,10 @@ footer img{
     }
     
     .join {
-        display: block;
-        grid-column: 1/2;
-        grid-row: 3/4;
+        margin-top:20px;
+        display:block;
+        grid-column: 1;
+        grid-row: 3;
         width: 95%;
         height: 95%;
     }
