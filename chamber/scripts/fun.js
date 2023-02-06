@@ -10,7 +10,7 @@ button.addEventListener('click', () => {
     button.classList.toggle('newstyle');
 });
 button1.addEventListener('click', () => {
-    button.classList.toggle('newstyle');
+    button1.classList.toggle('newstyle');
 });
 
 // hamburger button js 
