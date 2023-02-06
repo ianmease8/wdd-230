@@ -90,14 +90,26 @@ nav a {
     display: block;
 }
 
-.hero {
+/* .hero {
     margin-top: 20px;
     padding-bottom: 0px;
+    position: relative;
+} */
+
+.hero img{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    border: 1px black solid;
 }
 
-.hero p{
-    color: black;
-    text-align: center;
+.hero +p{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    font-size: 2em;
+    text-shadow: 2px 
 }
 
 .event{
@@ -183,7 +195,7 @@ footer img{
         display: none;
     }
 
-    a{
+    nav a{
         display: flex;
         font-size: 1.4em;
         padding-top: 30px;
@@ -200,7 +212,7 @@ footer img{
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr .5fr .5fr ;
+        grid-template-rows: .75fr .5fr .5fr .2fr .2fr .2fr ;
     }
 
     .hero {
@@ -209,15 +221,15 @@ footer img{
     }
 
     .event{
-        grid-column: 1/2;
-        grid-row: 5/6;
+        grid-column: 1;
+        grid-row: 5;
         height: 95%;
         width: 92.5%;
     }
     
     .weather{
-        grid-column: 2/-1;
-        grid-row: 5/6;
+        grid-column: 2;
+        grid-row: 5;
         height: 95%;
         width: 85%;
     }
