@@ -190,6 +190,9 @@ footer img{
     width: 150px;
 }
 
+.bigfoot{
+    display:none;
+}
 @media screen and (min-width: 650px){
     nav a:first-child{
         display: none;
@@ -279,10 +282,17 @@ footer img{
         grid-column:2;
         grid-row:1
     }
+    .bigfoot{
+        display:block;
+    }
+    .littlefoot{
+        display:none;
+    }
     footer span{
         grid-column:3;
         grid-row:1;
         color: #7BB2D9;
+        margin-top:50px;
     }
     footer div{
         grid-column:2;
