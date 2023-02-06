@@ -29,23 +29,22 @@ header{
     color: #7BB2D9;
 }
 
-header h1, h2{
+header h1{
     grid-column: 2/3;
     grid-row: 1/2;
-}
-
-header h1{
     font-size: 1.5em;
     margin-top: 15px;
 }
 
 header h2{
-    font-size: .7em;
+    grid-column: 3;
+    grid-row: 1/2;
+    font-size: 1em;
     margin-top: 38px;
 }
 
 header img{
-    width: 100%;
+    width: 95%;
 }
 #top-date{
     display:flex;
@@ -72,7 +71,7 @@ nav a:hover {
 }
 
 /* hamburger menu */
-a {
+nav a {
     display: none;
     padding: 15px;
     justify-content: left;
@@ -155,16 +154,14 @@ a {
 }
 
 footer{
+    display:block;
     background-color: #000000;
     color: #7BB2D9;
     text-align: center;
     line-height: .8em;
     padding-bottom: 20px;
 }
-footer a{
-    justify-content: center;
-    color: #7BB2D9;
-}
+
 /* 
 footer a{
     display: block;
@@ -182,7 +179,7 @@ footer img{
 }
 
 @media screen and (min-width: 650px){
-    a:first-child{
+    nav a:first-child{
         display: none;
     }
 
@@ -259,15 +256,12 @@ footer img{
     footer{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: .5fr .5fr .5fr;
+        grid-template-rows: .75fr .5fr;
     }
     footer img{
         grid-column:1;
         grid-row:1;
         align-content:center;
-    }
-    footer span a{
-        color: #7BB2D9;
     }
     footer p{
         grid-column:2;
@@ -276,6 +270,7 @@ footer img{
     footer span{
         grid-column:3;
         grid-row:1;
+        color: #7BB2D9;
     }
     footer div{
         grid-column:2;
