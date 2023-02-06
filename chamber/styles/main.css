@@ -217,7 +217,7 @@ footer img{
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: .75fr .5fr .5fr .2fr .2fr .2fr ;
+        grid-template-rows: .75fr .5fr .5fr .2fr .2fr none ;
     }
 
     .hero {
@@ -226,6 +226,7 @@ footer img{
     }
 
     .event{
+        margin-top: 20px;
         grid-column: 1;
         grid-row: 5;
         height: 95%;
@@ -233,6 +234,7 @@ footer img{
     }
     
     .weather{
+        margin-top: 20px;
         grid-column: 2;
         grid-row: 5;
         height: 95%;
@@ -271,6 +273,7 @@ footer img{
         height: 95%;
     }
     footer{
+        margin-top:20px;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: .75fr .5fr;
