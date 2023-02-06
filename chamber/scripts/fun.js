@@ -1,4 +1,5 @@
 const button = document.querySelector('.button');
+const button1 = document.querySelector('.button1');
 
 // function show(){
 //     button.classList.add('newstyle');
@@ -8,7 +9,9 @@ const button = document.querySelector('.button');
 button.addEventListener('click', () => {
     button.classList.toggle('newstyle');
 });
-
+button1.addEventListener('click', () => {
+    button.classList.toggle('newstyle');
+});
 
 // hamburger button js 
 const mainnav = document.querySelector('.navigation');
