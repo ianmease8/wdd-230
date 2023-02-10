@@ -353,8 +353,6 @@ footer img{
     }
     .anyotherone{
         display:none;
-    }
-    .hero img {
         width:600px;
         height:700px;
     }
@@ -403,5 +401,13 @@ footer img{
         grid-row: 3;
         width: 95%;
         height: 95%;
+    }
+}
+@media screen and (min-width: 1500px){
+    .biggestboy{
+        display:block;
+    }
+    .bigboy{
+        display:none;
     }
 }
