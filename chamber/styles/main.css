@@ -112,6 +112,13 @@ nav a {
 }
 .anyotherone{
     width: 95%;
+    display:none;
+    margin: 0 auto;
+    border: 1px black solid;
+}
+
+.smallone{
+    width: 95%;
     display:block;
     margin: 0 auto;
     border: 1px black solid;
@@ -259,6 +266,13 @@ footer img{
         grid-row: 1/2;
     }
 
+    .smallone{
+        display:none;
+    }
+
+    .anyotherone{
+        display:block;
+    }
     .event{
         margin-top: 20px;
         grid-column: 1;
@@ -355,11 +369,11 @@ footer img{
     }
     .bigboy{
         display:block;
+        width:600px;
+        height:700px;
     }
     .anyotherone{
         display:none;
-        width:600px;
-        height:700px;
     }
 
     .event{
