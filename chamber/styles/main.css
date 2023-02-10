@@ -100,11 +100,16 @@ nav a {
 } */
 .bigboy{
     display:none;
-    width: 95;
+    width: 95%;
     margin: 0 auto;
     border: 1px black solid;
 }
-
+.biggestboy{
+    display:none;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px black solid;
+}
 .anyotherone{
     width: 95%;
     display:block;
