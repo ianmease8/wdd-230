@@ -98,13 +98,22 @@ nav a {
     padding-bottom: 0px;
     position: relative;
 } */
+.bigboy{
+    display:none;
+}
 
-.hero img{
+.anyotherone{
+    display:block;
+    width: 95;
+    margin: 0 auto;
+    border: 1px black solid;
+}
+/* .hero img{
     width: 95%;
     display: block;
     margin: 0 auto;
     border: 1px black solid;
-}
+} */
 
 .hero +p{
     color: white;
@@ -335,6 +344,16 @@ footer img{
     .hero {
         grid-column: 2/3;
         grid-row:1/3;
+    }
+    .bigboy{
+        display:block;
+    }
+    .anyotherone{
+        display:none;
+    }
+    .hero img {
+        width:600px;
+        height:700px;
     }
 
     .event{
