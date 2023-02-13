@@ -47,4 +47,10 @@ let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.1
 if (temp <=50 && windspeed > 3){
     let windchill = document.querySelector('.wc').textContent;
     windchill.textContent = chill;
-}
+};
+
+/* storage local and session */
+
+localStorage.setItem('name', 'Ian M - Permanent');
+
+sessionStorage.setItem('class', 'wdd230 - not permanent');
