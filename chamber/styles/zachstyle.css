@@ -8,7 +8,7 @@ main {
 picture {
     display:flex;
     justify-content: center;
-    align-items: right; 
+    align-items: center; 
 }
 @media screen and (min-width: 750px){
     img:hover {
