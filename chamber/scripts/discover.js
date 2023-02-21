@@ -6,6 +6,6 @@ else{
     let currentdate=Date.now
     let lastVisit = localStorage.getItem('LastVisit')
     let diff = (currentdate-lastVisit)/1000/60/60/24
-    let difference = Math.round(diff)
-    document.querySelector("#diff").innerHTML = difference;
+    diff = Math.round(diff)
+    document.querySelector("#diff").innerHTML = diff;
 }
