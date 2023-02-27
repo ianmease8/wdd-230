@@ -30,7 +30,7 @@
             <legend>Applicant Information</legend>
             <label class="top">First Name* <input type="text" name="fname" required></label> 
             <label class="top">Last Name* <input type="text" name="'name" required></label>
-            <label class="top">Title <input type="text" name="'name"></label>
+            <label class="top">Title <input type="text" pattern="[A-Za-z -]+" minlength="7" name="'name"></label>
             <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label> 
             <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
         
@@ -54,10 +54,10 @@
         </article>
         <fieldset class="three">
             <legend>Description</legend>
-            <label class="top"><input type="textarea" name="comment"></label>
-            <input type="hidden" name="date" value="<script>Date.now()</script>">
+            <label class="top"><input type="text" name="comment"></label>
+            <input type="hidden" name="date" id="timeStamp">
         </fieldset>
-        <input class="submitBtn" type="submit" value="turn it in baby">
+        <input class="submitBtn" type="submit" value="turn it in">
 </form>
 </main>
 <footer class="footer">
@@ -81,3 +81,4 @@
         <p><span id="feets"></span> .:|:. Ian Mease .:|:. Rhode Island<br><span id="modified"></span></p>
     </div>
 </footer>
+<script src="/wdd-230/chamber/scripts/join.js"></script>
