@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is the landing page for my wdd230 class that will hold all of my assignment links and page updates"/>
+    <title>Ian Mease - fun</title>
+    <link href="/wdd-230/chamber/styles/main.css" rel="stylesheet">
+</head>
+<header>
+    <img src="/wdd-230/chamber/images/great-logo-actually-webpg.webp" alt="South Kingstown Logo">
+    <h1>South Kingstown</h1>
+    <h2>Chamber of Commerce</h2>
+    <nav class="navigation">
+        <a class="ham" href="#">&#9776;</a>
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="#">Directory</a>
+        <a href="#join.html">Join</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+<main>
+    <h1>Course Proposal Application</h1>
+
+    <form>
+        <fieldset>
+
+            <legend>Applicant Information</legend>
+            <label>First Name* <input type="text" name="fname" required></label> 
+            <label>Last Name* <input type="text" name="'name" required></label>
+            <label>Phone <input type="tel" name="phone" placeholder="1235551234"> 
+            </label> <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label>Website <input type="url" name="url" placeholder="https://"></label> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Course Information</legend> 
+            <div>Audience</div>
+            <label><input type="radio" name="audience" value="beginner"> Beginner</label> 
+            <label></label><input type="radio" name="audience" value="intermediate">Intermediate</label>
+            <label><input type="radio" name="audience" value="advanced"> Advanced</label>
+        </fieldset>
+        <fieldset>
+            <div>Software Needed</div>
+            <label><input type="checkbox". name="editing" value="yes"> Photo Editing</label> 
+            <label><input type="checkbox" name="code" value="yes"> Coding</label>
+            <label><input type="checkbox" name= "process" value="yes"> Preprocessor</label> 
+            <label><input type="checkbox" name="client" value="yes"> FTP Client</label>
+        </fieldset>
+
+        <fieldset> 
+            <legend>Funding</legend>
+
+            <label>Anticipated Completion Date <input type="date" name="completeDate"> </label> 
+            <label>Course Subject 
+            <select name="subject">
+
+            <option value="">Please Select</option> 
+            <option value="software">Software Development</option> 
+            <option value="creative">Creative Professional</option> 
+            <option value="info">Information Technology</option> 
+            <option value="data"> Da Professional</option>
+            <option value="construccion"> Construction</option> 
+            <option value="manufacturing">Manufacturing</option> 
+            <option value="business">Business Professional</option> 
+            <option value="security">Cyber Security</option> 
+            </select>
+
+            </label>
+        <label>How Many Authors <input type="number" name="authors"></label>
+
+        </fieldset>
+        <input type="submit" value="turn it in baby">
+</form>
+</main>
+<footer class="footer">
+    <img src="/wdd-230/chamber/images/great-logo-actually-webpg.webp" alt="Logo">
+    <p>230 Old Tower Hill Rd, Wakefield, RI 02879<br>southkingstownchamberofcommerce.org<br>+14017832801</p>
+    <span class="bigfoot">
+        <a href="https://twitter.com/SRIChamber">Twitter</a>
+        <br>
+        <br>
+        <a href="https://www.google.com/maps/place/Southern+Rhode+Island+Chamber+of+Commerce/@41.442702,-71.4825337,17z/data=!3m1!4b1!4m5!3m4!1s0x89e5b95efdb4bae7:0x3e2e8908796d398a!8m2!3d41.442702!4d-71.480345">Maps</a>
+        <br>
+        <br>
+        <a href="https://www.facebook.com/pages/Southern-Rhode-Island-Chamber-of-Commerce/121412501270298">Facebook</a>
+    </span>
+    <span class="littlefoot">
+        <a href="https://twitter.com/SRIChamber">Twitter</a>
+        <a href="https://www.google.com/maps/place/Southern+Rhode+Island+Chamber+of+Commerce/@41.442702,-71.4825337,17z/data=!3m1!4b1!4m5!3m4!1s0x89e5b95efdb4bae7:0x3e2e8908796d398a!8m2!3d41.442702!4d-71.480345">Maps</a>
+        <a href="https://www.facebook.com/pages/Southern-Rhode-Island-Chamber-of-Commerce/121412501270298">Facebook</a>
+    </span>
+    <div class="burger">
+        <p><span id="feets"></span> .:|:. Ian Mease .:|:. Rhode Island<br><span id="modified"></span></p>
+    </div>
+</footer>
