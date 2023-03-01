@@ -1,3 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #7BB2D9
+}
+p,li {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.8em;
+    font-size: 1.3em;
+    color: #7BB2D9
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2fr 1fr;
+    background-color: #000000;
+    color: #7BB2D9;
+}
+
+header h1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+header h2{
+    grid-column: 3;
+    grid-row: 1/2;
+    font-size: 1em;
+    margin-top: 38px;
+}
+
+header img{
+    width: 95%;
+}
+
+nav {
+    grid-column: -2/-1;
+    display: flex;
+    flex-direction: column;
+}
+nav a:hover {
+	background-color: #9E9577;
+	color: #3A3D47;
+}
+
+/* hamburger menu */
+nav a {
+    display: none;
+    padding: 15px;
+    justify-content: left;
+    color: #7BB2D9;
+    text-decoration: none;
+}
+
+.ham    {
+    display: block;
+    text-decoration: none;
+    font-size: 2em;
+    justify-items: left;
+}
+
+.responsive a{
+    display: block;
+}
+
 form fieldset{
     padding: .5rem 3%;
     margin: 2rem 0;
@@ -40,7 +113,77 @@ form input.submitBtn{
 .informations{
     display:none;
 }
+
+footer{
+    display:block;
+    background-color: #000000;
+    color: #7BB2D9;
+    text-align: center;
+    line-height: .8em;
+    padding-bottom: 20px;
+}
+footer a:link {
+    color: #7BB2D9;
+  }
+  
+  /* visited link */
+footer a:visited {
+    color: #7BB2D9;
+  }
+  
+  /* mouse over link */
+footer a:hover {
+    color: #7BB2D9;
+  }
+  
+  /* selected link */
+footer a:active {
+    color: #7BB2D9;
+  }
+/* 
+footer a{
+    display: block;
+    color: #FAF8F0;
+    padding: 0px;
+    text-align: center;
+    line-height: .8em;
+    font-size: 1em;
+    padding: 10px;
+} */
+
+footer img{
+    margin-top: 20px;
+    width: 150px;
+}
+
+.bigfoot{
+    display:none;
+}
+
 @media screen and (min-width: 750px){
+
+    nav a:first-child{
+        display: none;
+    }
+
+    nav a{
+        display: flex;
+        font-size: 1.4em;
+        padding-top: 30px;
+    }
+
+    nav{
+        flex-direction: row;
+        justify-content: center;
+    }
+    nav a:hover {
+        background-color: #9E9577;
+        color: #3A3D47;
+    }
+
+
+
+
     body {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -65,4 +208,36 @@ form input.submitBtn{
         grid-column: 1/2;
         grid-row:3
     }
+
+    footer{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: .75fr .5fr;
+    }
+    footer img{
+        grid-column:1;
+        grid-row:1;
+        align-content:center;
+    }
+    footer p{
+        grid-column:2;
+        grid-row:1
+    }
+    .bigfoot{
+        display:block;
+    }
+    .littlefoot{
+        display:none;
+    }
+    footer span{
+        grid-column:3;
+        grid-row:1;
+        color: #7BB2D9;
+        margin-top:50px;
+    }
+    footer div{
+        grid-column:2;
+        grid-row:2;
+    }
+
 }
