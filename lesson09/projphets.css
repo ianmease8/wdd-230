@@ -21,3 +21,39 @@ section{
     width: 90%;
     box-shadow: 10px 20px 30px black;
 }
+#view{
+    text-align: center;
+    font-size: 3em;
+}
+#cards, #list {
+    border: 3px solid black;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.cardss{
+    display:none;
+}
+
+.table{
+    display:block;
+}
+
+table{
+    width: 75%;
+    margin: 50px auto;
+    font-size: 1.2em;
+}
+
+td{
+    padding: 5px;
+    display: block;
+}
+
+tr:nth-of-type(even){
+    background-color: grey;
+}
+
+
+/* display: table-cell; */
+
+
