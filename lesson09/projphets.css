@@ -1,4 +1,4 @@
-.cards {
+.cardss {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -9,6 +9,15 @@ h1{
     text-align: center;
     color:black;
 }
+
+/* #cardss {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
 section{
     border: 2px solid yellow;
     background-color: orange;
@@ -30,15 +39,14 @@ section{
     padding: 0 8px;
     cursor: pointer;
 }
-.cardss{
-    display:none;
-}
+
 
 .table{
-    display:block;
+    display: none;
 }
 
 table{
+    display: none;
     width: 75%;
     margin: 50px auto;
     font-size: 1.2em;

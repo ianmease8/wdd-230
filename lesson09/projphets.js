@@ -12,7 +12,7 @@ async function getProphetData() {
   getProphetData();
 
   const displayProphets = (prophets) => {
-    const cards = document.querySelector('div.cards'); // select the output container element
+    const cards = document.querySelector('div.cardss'); // select the output container element
   
     prophets.forEach((prophet) => {
       // Create elements to add to the div.cards element
@@ -56,18 +56,27 @@ function displayTable(prophets){
 }
 
 
-const mainnav = document.querySelector('.navigation');
-const hambutton = document.querySelector('.ham');
-hambutton.addEventListener('click', () =>{
-    mainnav.classList.toggle('responsive');
+// const mainnav = document.querySelector('.navigation');
+// const hambutton = document.querySelector('.ham');
+// hambutton.addEventListener('click', () =>{
+//     mainnav.classList.toggle('responsive');
+// });
+
+
+
+const cardbutton = document.querySelector('#cardsbut');
+const tablebutton = document.querySelector('#listsbut');
+const cardview = document.querySelector(".cardss");
+const tableview = document.querySelector(".tabless");
+
+cardbutton.addEventListener('click', () =>{
+  cardview.style.display = "flex";
+  tableview.style.display = "none";
+
 });
 
-
-
-const cardclass = document.querySelector('.cardss');
-const tableclass = document.querySelector('.table');
-
-cardclass.addEventListener('click', () =>{
-  cardclass.classList.toggle('responsive');
-  tableclass.classList.toggle('responsive')
-})
+tablebutton.addEventListener('click', () =>{
+  tableview.style.display = "block";
+  cardview.style.display = "none";
+});
+// document.getElementById("myDIV").style.display = "none";
