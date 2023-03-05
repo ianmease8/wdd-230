@@ -3,7 +3,7 @@
       {
         "name": "brickleys ice cream",
         "address": "123 main street",
-        "phone number": "401-111-1111",
+        "phone_number": "401-111-1111",
         "website": "https://www.brickleys.com/",
         "image": "/wdd-230/chamber/images/Brickleys-logo-green_.webp",
         "mlevel":"gold" 
@@ -11,7 +11,7 @@
       {
         "name": "Dels Lemonade",
         "address": "321 main street",
-        "phone number": "401-222-2222",
+        "phone_number": "401-222-2222",
         "website": "https://dels.com/",
         "image": "/wdd-230/chamber/images/dels-lemonade.webp",
         "mlevel": "gold"
@@ -19,7 +19,7 @@
       {
         "name": "block island ferry",
         "address": "123 ocean view ave",
-        "phone number": "401-333-3333",
+        "phone_number": "401-333-3333",
         "website": "https://www.blockislandferry.com/",
         "image": "/wdd-230/chamber/images/BIF-WebLogos-AllWhite.png",
         "mlevel": "gold"
@@ -27,7 +27,7 @@
       {
         "name": "Hal's Garage",
         "address": "321 ocean view ave",
-        "phone number": "401-444-4444",
+        "phone_number": "401-444-4444",
         "website": "https://halsautobody.com/",
         "image": "/wdd-230/chamber/images/hals.png",
         "mlevel": "silver"
@@ -35,7 +35,7 @@
       {
         "name": "Bajas",
         "address": "123 road street",
-        "phone number": "401-555-5555",
+        "phone_number": "401-555-5555",
         "website": "https://bajasrestaurants.com/",
         "image": "/wdd-230/chamber/images/bajas.png",
         "mlevel": "silver"
@@ -43,7 +43,7 @@
       {
         "name": "Belmont Market",
         "address": "321 road street",
-        "phone number": "401-666-6666",
+        "phone_number": "401-666-6666",
         "website": "https://www.belmontmarket.com/",
         "image": "/wdd-230/chamber/images/belmont.jpg",
         "mlevel": "gold"
@@ -51,7 +51,7 @@
       {
         "name": "Mark Hutchins Landscaping",
         "address": "123 green road",
-        "phone number": "401-777-7777",
+        "phone_number": "401-777-7777",
         "website": "https://markhutchinslandscaping.com/",
         "image": "/wdd-230/chamber/images/mark_hutchins.jpg",
         "mlevel": "gold"
@@ -59,7 +59,7 @@
       {
         "name": "Ocean Mist",
         "address": "321 green road ",
-        "phone number": "401-888-8888",
+        "phone_number": "401-888-8888",
         "website": "https://www.oceanmist.net/",
         "image": "/wdd-230/chamber/images/oceanmist.jpg",
         "mlevel": "bronze"
@@ -67,7 +67,7 @@
       {
         "name": "Matunuck Oyster Bar",
         "address": "123 oyster ave",
-        "phone number": "401-999-9999",
+        "phone_number": "401-999-9999",
         "website": "https://www.rhodyoysters.com/",
         "image": "/wdd-230/chamber/images/mob.jpg",
         "mlevel": "gold"
