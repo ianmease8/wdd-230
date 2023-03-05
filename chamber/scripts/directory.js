@@ -14,7 +14,7 @@ async function getProphetData() {
   const displayProphets = (companies) => {
     const cards = document.querySelector('div.cardss'); // select the output container element
   
-    prophets.forEach((companies) => {
+    companies.forEach((companies) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
@@ -36,7 +36,7 @@ async function getProphetData() {
   )} // end of function expression
 
 function displayTable(companies){
-  prophets.forEach((companies)=>{
+  companies.forEach((companies)=>{
     let tr = document.createElement('tr');
     let td_name = document.createElement('td');
     let td_birthplace = document.createElement('td');
