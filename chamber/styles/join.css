@@ -187,7 +187,7 @@ footer img{
     form {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: .5fr 1fr .2fr .2fr;
     }
     .one{
         grid-column:1/2;
@@ -206,9 +206,13 @@ footer img{
 
     .three{
         grid-column: 1/2;
-        grid-row:3
+        grid-row:3;
     }
 
+    .submitBtn{
+        grid-column: 1/2;
+        grid-row:4;
+    }
     footer{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
