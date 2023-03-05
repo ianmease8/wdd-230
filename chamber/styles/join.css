@@ -5,7 +5,7 @@
 h1, h2, h3{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: #7BB2D9
+    color: #7BB2D9;
 }
 p,li {
     font-family: 'Montserrat', sans-serif;
@@ -13,7 +13,7 @@ p,li {
     padding: 20px;
     line-height: 1.8em;
     font-size: 1.3em;
-    color: #7BB2D9
+    color: #7BB2D9;
 }
 
 header{
@@ -180,9 +180,6 @@ footer img{
         background-color: #9E9577;
         color: #3A3D47;
     }
-
-
-
 
     form {
         display: grid;
