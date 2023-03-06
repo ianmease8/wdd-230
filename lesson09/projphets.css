@@ -70,3 +70,6 @@ tr:nth-of-type(even){
 /* display: table-cell; */
 
 
+main{
+    display:block;
+}
