@@ -19,16 +19,21 @@ h1{
 } */
 
 section{
-    border: 2px solid yellow;
-    background-color: orange;
+    border: 2px solid #7BB2D9;
+        background-color: #000000;
+
     padding:30px;
     width:300px;
     margin:20px;
 }
 
-.cards img{
+.cardss img{
+    background-color:#9E9577;
     width: 90%;
     box-shadow: 10px 20px 30px black;
+}
+.cardss h2{
+    width: 95%;
 }
 #view{
     text-align: center;
