@@ -8,4 +8,5 @@ else{
     let diff = (currentdate-lastVisit)/1000/60/60/24;
     diff = Math.round(diff)
     document.querySelector("#diff").innerHTML = diff;
+    localStorage.setItem('lastVisit', Date.now());
 }
