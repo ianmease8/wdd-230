@@ -145,10 +145,25 @@ nav a {
 }
 
 .weather{
+    display:flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: #3A3D47;
     height: 200px;
     width: 95%;
     margin: 0 auto;
+    padding-bottom:10px;
+    height: 95%;
+    width: 85%;    
+}
+
+.weather img{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .news-letter{
