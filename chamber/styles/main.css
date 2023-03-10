@@ -10,9 +10,8 @@ h1, h2, h3{
 p,li {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    padding: 20px;
-    line-height: 1.8em;
-    font-size: 1.3em;
+    line-height: 1em;
+    font-size: 1.2em;
     color: #7BB2D9
 }
 .button{
