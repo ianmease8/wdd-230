@@ -345,6 +345,12 @@ footer img{
         margin: 0 auto;
         height: 95%;
     }
+
+    .join button{
+        display:block;
+        margin:0 auto;
+        width:50%;
+    }
     
     footer{
         display:grid;
