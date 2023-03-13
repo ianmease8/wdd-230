@@ -155,7 +155,7 @@ nav a {
     height: 200px;
     width: 95%;
     margin: 10px auto;
-    padding-bottom:10px;
+
     height: 95%;
     width: 85%;    
 }
@@ -350,6 +350,7 @@ footer img{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: .75fr .5fr;
+        margin-top: 10px;
     }
     footer img{
         grid-column:1;
