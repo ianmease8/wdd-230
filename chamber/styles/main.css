@@ -99,25 +99,26 @@ nav a {
 } */
 .bigboy{
     display:none;
-    width: 95%;
+    width: 98%;
     margin: 0 auto;
     border: 1px black solid;
 }
 .biggestboy{
     display:none;
-    width: 95%;
+    width: 98%;
+    height: 90%;
     margin: 0 auto;
     border: 1px black solid;
 }
 .anyotherone{
-    width: 95%;
+    width: 98%;
     display:none;
     margin: 0 auto;
     border: 1px black solid;
 }
 
 .smallone{
-    width: 95%;
+    width: 98%;
     display:block;
     margin: 0 auto;
     border: 1px black solid;
@@ -157,6 +158,14 @@ nav a {
     padding-bottom:10px;
     height: 95%;
     width: 85%;    
+}
+
+.hero{
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .weather img{
@@ -326,7 +335,9 @@ footer img{
     }
     
     .join {
-        display: block;
+        display:flex;
+        flex-direction: column; 
+        justify-content: center;
         grid-column: 1/-1;
         grid-row: 4/5;
         background-color: #3A3D47;
@@ -334,6 +345,7 @@ footer img{
         margin: 0 auto;
         height: 95%;
     }
+    
     footer{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -382,8 +394,8 @@ footer img{
     }
     .bigboy{
         display:block;
-        width:600px;
-        height:600px;
+        width:98%;
+        height:90%;
     }
     .anyotherone{
         display:none;
@@ -428,7 +440,10 @@ footer img{
     
     .join {
         margin-top:20px;
-        display:block;
+        display:flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+        justify-content: center;
         grid-column: 1;
         grid-row: 3;
         width: 95%;
