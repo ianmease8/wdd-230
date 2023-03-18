@@ -22,43 +22,41 @@
     </nav>
 </header>
 <h1>Application</h1>
-<main>
-    <form method="get" action="thanks.html">
-        <fieldset class="one">
+<form method="get" action="thanks.html">
+    <fieldset class="one">
 
-            <legend>Applicant Information</legend>
-            <label class="top">First Name* <input type="text" name="fname" required></label> 
-            <label class="top">Last Name* <input type="text" name="'name" required></label>
-            <label class="top">Title <input type="text" pattern="[A-Za-z -]+" minlength="7" name="'name"></label>
-            <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label> 
-            <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-        
-        </fieldset>
+        <legend>Applicant Information</legend>
+        <label class="top">First Name* <input type="text" name="fname" required></label> 
+        <label class="top">Last Name* <input type="text" name="'name" required></label>
+        <label class="top">Title <input type="text" pattern="[A-Za-z -]+" minlength="7" name="'name"></label>
+        <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label> 
+        <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+    
+    </fieldset>
 
-        <fieldset class="two">
-            <legend>Membership Level</legend> 
-            <label class="top"><input type="radio" name="audience" value="np"> NonProfit</label> 
-            <label class="top"><input type="radio" name="audience" value="Bronze">Bronze</label>
-            <label class="top"><input type="radio" name="audience" value="Silver"> Silver</label>
-            <label class="top"><input type="radio" name="audience" value="gold"> Gold</label>
-        </fieldset>
+    <fieldset class="two">
+        <legend>Membership Level</legend> 
+        <label class="top"><input type="radio" name="audience" value="np"> NonProfit</label> 
+        <label class="top"><input type="radio" name="audience" value="Bronze">Bronze</label>
+        <label class="top"><input type="radio" name="audience" value="Silver"> Silver</label>
+        <label class="top"><input type="radio" name="audience" value="gold"> Gold</label>
+    </fieldset>
 
-        <article class="informations">
-            <ul>
-                <li>NP Membership is for non profit organizations and there is no fee.</li>
-                <li>Bronze Membership (15% discounts on events, 10% discount on advertising, Fee of $50/month)</li>
-                <li>Silver Membership (25% discount on events, 15% discount on advertising, Free participation in the trade fair, Fee of $100/month)</li>
-                <li>Gold Membership (50% discount on events, 50% discount on advertising, Free participation in the trade fair, 5 free featured ads per year, 1 free training per quarter, Fee of $100/month)</li>
-            </ul>
-        </article>
-        <fieldset class="three">
-            <legend>Description</legend>
-            <label class="top"><input type="text" name="comment"></label>
-            <input type="hidden" name="date" id="timeStamp">
-        </fieldset>
-        <input class="submitBtn" type="submit" value="turn it in">
+    <article class="informations">
+        <ul>
+            <li>NP Membership is for non profit organizations and there is no fee.</li>
+            <li>Bronze Membership (15% discounts on events, 10% discount on advertising, Fee of $50/month)</li>
+            <li>Silver Membership (25% discount on events, 15% discount on advertising, Free participation in the trade fair, Fee of $100/month)</li>
+            <li>Gold Membership (50% discount on events, 50% discount on advertising, Free participation in the trade fair, 5 free featured ads per year, 1 free training per quarter, Fee of $100/month)</li>
+        </ul>
+    </article>
+    <fieldset class="three">
+        <legend>Description</legend>
+        <label class="top"><input type="text" name="comment"></label>
+        <input type="hidden" name="date" id="timeStamp">
+    </fieldset>
+    <input class="submitBtn" type="submit" value="turn it in">
 </form>
-</main>
 <footer class="footer">
     <img src="/wdd-230/chamber/images/great-logo-actually-webpg.webp" alt="Logo">
     <p>230 Old Tower Hill Rd, Wakefield, RI 02879<br><br>southkingstownchamberofcommerce.org<br><br>+14017832801</p>
