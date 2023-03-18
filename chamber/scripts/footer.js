@@ -1,6 +1,6 @@
-let date = new Date();
-let year = date.getFullYear();
-let day = date.getDay();
+let dates = new Date();
+let years = dates.getFullYear();
+let days = dates.getDay();
 const now = new Date();
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
 
