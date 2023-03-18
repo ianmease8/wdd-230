@@ -4,10 +4,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: fit-contentauto;
 }
 h1{
     text-align: center;
-    color:#7BB2D9;
+    color:7BB2D9;
 }
 
 /* #cardss {
@@ -23,7 +24,7 @@ section{
         background-color: #000000;
 
     padding:30px;
-    width:300px;
+    width:400px;
     margin:20px;
 }
 
@@ -31,6 +32,8 @@ section{
     background-color:#9E9577;
     width: 90%;
     box-shadow: 10px 20px 30px black;
+    max-width:300px;
+    max-height:200px;
 }
 .cardss h2{
     width: 95%;
