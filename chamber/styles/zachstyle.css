@@ -5,6 +5,9 @@ main {
     justify-content: center;
     align-items: center;
 }
+article p{
+   color:#9E9577;
+}
 picture {
     display:flex;
     justify-content: center;
