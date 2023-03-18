@@ -5,7 +5,10 @@ form p,li {
     padding: 20px;
     line-height: 1.8em;
     font-size: 1.3em;
-    color: #7BB2D9;
+    color: #000000;
+}
+#app{
+    color: #000000;
 }
 
 form fieldset{
