@@ -6,7 +6,7 @@ main {
     align-items: center;
 }
 article p{
-   color:#9E9577;
+   color:#000000;
 }
 picture {
     display:flex;
@@ -14,7 +14,7 @@ picture {
     align-items: center; 
 }
 #days {
-   color:#9E9577;
+   color:#000000;
 }
 picture img{
     width:300px;
