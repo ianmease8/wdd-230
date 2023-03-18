@@ -443,6 +443,7 @@ footer img{
     }
     
     .spotlights{
+        margin-top:20px;
         grid-column: 3/-1;
         grid-row: 1/4;
     }
