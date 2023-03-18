@@ -27,6 +27,7 @@ p,li {
 header{
     display: grid;
     grid-template-columns: 1fr 1.5fr 2fr 1fr;
+    grid-template-rows:.25fr auto;
     background-color: #000000;
     color: #7BB2D9;
 }
@@ -47,6 +48,8 @@ header h2{
 
 header img{
     width: 95%;
+    height:80%;
+    grid-row:1/2
 }
 #top-date{
     display:flex;
@@ -64,6 +67,7 @@ header img{
 }
 nav {
     grid-column: -2/-1;
+    grid-row: 1;
     display: flex;
     flex-direction: column;
 }
@@ -387,6 +391,12 @@ footer img{
     }
 }
 
+@media screen and (min-width: 1000px){
+    header img{
+        height:125px;
+        width:auto;
+    }
+}
 @media screen and (min-width: 1200px){
     main {
         grid-template-columns: 1fr 2fr 1fr;
