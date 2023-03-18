@@ -13,6 +13,9 @@ picture {
     justify-content: center;
     align-items: center; 
 }
+#days {
+   color:#9E9577;
+}
 picture img{
     width:300px;
     height:300px;

@@ -6,6 +6,6 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(
 
 document.querySelector('#feets').innerHTML ='&copy;'+ years; 
 
-let currentdate = document.lastModified;
+let currentdates = document.lastModified;
 
-document.querySelector('#modified').innerHTML = 'Last updated: ' + currentdate;
+document.querySelector('#modified').innerHTML = 'Last updated: ' + currentdates;
