@@ -130,13 +130,13 @@ nav a {
     border: 1px black solid;
 } */
 
-.hero +p{
+/* .hero +p{
     color: white;
     position: absolute;
     top: 0;
     left: 50px;
     font-size: 2em;
-}
+} */
 
 .event{
     background-color: #3A3D47;
@@ -167,7 +167,9 @@ nav a {
     justify-content: center;
 
 }
-
+.hero p{
+    color:#3A3D47;
+}
 .weather img{
     height: 50px;
     width: 50px;
