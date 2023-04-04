@@ -56,8 +56,11 @@ header {
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
+  padding:10px;
 }
-
+button{
+  margin-right:10px;
+}
 .weather{
   display:flex;
   flex-wrap:wrap;
@@ -95,12 +98,18 @@ footer p{
 
 .imgh2{
   padding:5px;
+  display:none;
 }
 
 .imgh3{
+  display:none;
   padding:5px;
 }
 
+.img4{
+  width:90%;
+  height:350px;
+}
 
 .today_img{
   max-width:100px;
@@ -133,6 +142,19 @@ footer p{
     padding: 10px;
     box-sizing: border-box;
   }   */
+
+@media screen and (min-width: 600px){
+  .imgh2{
+    display:flex;
+  }
+    }
+
+@media screen and (min-width: 800px){
+  .imgh3{
+    display:flex;
+  }
+    }
+
 
 @media screen and (min-width: 1000px){
   .rightimg{
