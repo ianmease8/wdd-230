@@ -37,4 +37,14 @@ header {
     color: #fff; /* sets the text color of the navigation links */
     text-decoration: none; /* removes the underline from the navigation links */
   }
+  .top-portion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   
+  /* .flex-item {
+    flex-basis: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+  }   */
