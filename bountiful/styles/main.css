@@ -3,3 +3,38 @@
 p h1 h2{
     font-family: 'Space Mono', monospace;
 }
+
+img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+header {
+    background-color: #333; /* sets the background color of the header */
+    color: #fff; /* sets the text color of the header */
+    padding: 20px; /* adds padding to the header */
+    display: flex; /* sets the display property to flex */
+    justify-content: space-between; /* aligns the items to the start and end of the header */
+    align-items: center; /* centers the items vertically in the header */
+  }
+  
+  h1 {
+    margin: 0; /* removes any default margin from the h1 element */
+  }
+  
+  nav ul {
+    margin: 0; /* removes any default margin from the ul element */
+    padding: 0; /* removes any default padding from the ul element */
+    display: flex; /* sets the display property to flex */
+  }
+  
+  nav li {
+    list-style: none; /* removes the bullet points from the li elements */
+    margin-right: 20px; /* adds margin to the right of the li elements */
+  }
+  
+  nav a {
+    color: #fff; /* sets the text color of the navigation links */
+    text-decoration: none; /* removes the underline from the navigation links */
+  }
+  

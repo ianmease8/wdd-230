@@ -26,8 +26,15 @@ const getWeather = async () => {
     document.querySelector('.overmorrowimax').textContent=data.days[2].tempmax;
     document.querySelector('.overmorrowimin').textContent=data.days[2].tempmin;
 
-
-
-
   };
 getWeather();
+
+let date = new Date();
+let year = date.getFullYear();
+let day = date.getDay();
+const now = new Date();
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
+let currentdate = document.lastModified;
+document.querySelector('#modified').innerHTML = 'Last updated: ' + currentdate;
+
+document.querySelector('#feets').innerHTML ='&copy;'+ year;
