@@ -9,7 +9,7 @@ async function getProphetData() {
 
 }
 
-    const fruits =getProphetData();
+    const fruits = await getProphetData();
 
     let firstfruit = fruits[0];
 
