@@ -159,6 +159,11 @@ footer a{
   
 }
 
+.img_header{
+  display:none;
+  grid-column:2;
+  grid-row:1/4
+}
 .tomorrow_img{
   max-width:100px;
   max-height:100px;
@@ -236,6 +241,9 @@ footer a{
 
 @media screen and (min-width: 675px){
   .today_img{
+    display:block;
+  }
+  .img_header{
     display:block;
   }
     }
