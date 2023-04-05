@@ -74,11 +74,31 @@ formbutton.addEventListener('click', () =>{
     } else{
         fruity1.textContent = "not selected"
     }
+    if (fruity2u.checked){
+        fruity2.textContent = f2.textContent
+    } else{
+        fruity2.textContent = "not selected"
+    }
+    if (fruity3u.checked){
+        fruity3.textContent = f3.textContent
+    } else{
+        fruity3.textContent = "not selected"
+    }
+    if (fruity4u.checked){
+        fruity4.textContent = f4.textContent
+    } else{
+        fruity4.textContent = "not selected"
+    }
+    if (fruity5u.checked){
+        fruity5.textContent = f5.textContent
+    } else{
+        fruity5.textContent = "not selected"
+    }
     // fruity1.textContent = fruity1u.value;
-    fruity2.textContent = fruity2u.value;
-    fruity3.textContent = fruity3u.value;
-    fruity4.textContent = fruity4u.value;
-    fruity5.textContent = fruity5u.value;
+    // fruity2.textContent = fruity2u.value;
+    // fruity3.textContent = fruity3u.value;
+    // fruity4.textContent = fruity4u.value;
+    // fruity5.textContent = fruity5u.value;
     info.textContent = infou2
 
 
