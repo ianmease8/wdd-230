@@ -138,9 +138,12 @@ let f5 = document.querySelector(".f5");
 
 formbutton.addEventListener('click', () =>{
     let log = localStorage.getItem('count');
-    let diff = 1 + log
+    let logger = parseInt(log)
+    let diff = 1 + logger
     console.log(diff)
     localStorage.setItem('count', diff);
+    let test = localStorage.getItem('count');
+    console.log(test)
     const firstnameu = document.querySelector('input[name="fname"]');
     const emailu = document.querySelector('input[name="email"]');
     const numberu = document.querySelector('input[name="phone"]');
