@@ -6,6 +6,12 @@ let fatm = 0;
 let sugarm = 0;
 let calom = 0;
 
+let date = new Date();
+let year = date.getFullYear();
+let day = date.getDay();
+let now = new Date();
+let fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
+
 
 let f1carbs;
 let f1prots;
@@ -134,6 +140,7 @@ let f3 = document.querySelector(".f3");
 let f4 = document.querySelector(".f4");
 let f5 = document.querySelector(".f5");
 
+const dating = document.querySelector('.daters')
 
 
 formbutton.addEventListener('click', () =>{
@@ -215,8 +222,8 @@ formbutton.addEventListener('click', () =>{
     // fruity3.textContent = fruity3u.value;
     // fruity4.textContent = fruity4u.value;
     // fruity5.textContent = fruity5u.value;
-    info.textContent = infou2
-
+    info.textContent = infou2;
+    dating.textContent= fulldateUK;
     carbs.textContent = carbsm;
     protein.textContent = protm;
     fat.textContent = fatm;
@@ -241,10 +248,6 @@ formbutton.addEventListener('click', () =>{
 
 
 
-let date = new Date();
-let year = date.getFullYear();
-let day = date.getDay();
-const now = new Date();
-const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
+
 let currentdate = document.lastModified;
 document.querySelector('#modified').innerHTML = 'Last updated: ' + currentdate;
