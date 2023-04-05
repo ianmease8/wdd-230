@@ -207,7 +207,6 @@ formbutton.addEventListener('click', () =>{
     // fruity5.textContent = fruity5u.value;
     info.textContent = infou2
 
-    const info = document.querySelector('.info');
     carbs.textContent = carbsm;
     protein.textContent = protm;
     fat.textContent = fatm;
