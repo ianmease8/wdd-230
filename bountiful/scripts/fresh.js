@@ -1,10 +1,11 @@
 const url = "https://andejuli.github.io/wdd230/fruit.json"
-let data;
+
 
 async function getProphetData() {
     const response = await fetch(url);
     const data = await response.json();
     console.table(data.companies);
+    return data;
 
 }
 
