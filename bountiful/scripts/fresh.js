@@ -5,17 +5,16 @@ async function getProphetData() {
     const response = await fetch(url);
     const data = await response.json();
     console.table(data);
-    return data;
+    let firstfruit = fruits[0];
+    let f1 = document.querySelector(".f1");
+    f1.textContent = firstfruit.name;
+
 
 }
 
-    const fruits = await getProphetData();
-    console.table(fruits)
-    let firstfruit = fruits[0];
+getProphetData();
 
-    let f1 = document.querySelector(".f1");
 
-    f1.textContent = firstfruit.name;
 
 
 
