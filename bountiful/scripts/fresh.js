@@ -38,8 +38,12 @@ let f5fatsm;
 let f5sugar;
 let f5calom;
 
-
-
+async function getProphetData1() {
+    const response = await fetch(url);
+    const data = await response.json();
+    return data;
+}
+const data = getProphetData1();
 async function getProphetData() {
     const response = await fetch(url);
     const data = await response.json();
@@ -63,13 +67,9 @@ async function getProphetData() {
     f5.textContent = fifthfruit.name;
 
 }
-async function getProphetData1() {
-    const response = await fetch(url);
-    const data = await response.json();
-    return data;
-}
+
 getProphetData();
-const data = getProphetData1();
+
 
 
 
