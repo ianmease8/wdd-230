@@ -10,38 +10,40 @@ p h1 h2{
 } */
 
 header {
-    background-color: #333; /* sets the background color of the header */
-    color: #fff; /* sets the text color of the header */
-    padding: 20px; /* adds padding to the header */
-    display: flex; /* sets the display property to flex */
-    justify-content: space-between; /* aligns the items to the start and end of the header */
-    align-items: center; /* centers the items vertically in the header */
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
   }
   
   h1 {
-    margin: 0; /* removes any default margin from the h1 element */
+    margin: 0; 
   }
   
   nav ul {
-    margin: 0; /* removes any default margin from the ul element */
-    padding: 0; /* removes any default padding from the ul element */
-    display: flex; /* sets the display property to flex */
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
   }
   
   nav li {
-    list-style: none; /* removes the bullet points from the li elements */
-    margin-right: 20px; /* adds margin to the right of the li elements */
+    list-style: none; 
+    margin-right: 20px; 
   }
   
   nav a {
-    color: #fff; /* sets the text color of the navigation links */
-    text-decoration: none; /* removes the underline from the navigation links */
+    color: #fff; 
+    text-decoration: none; 
   }
 .top-portion {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding:10px;
+    width:80%;
+    margin: 0 auto;
   }
 
 .article{
@@ -49,6 +51,8 @@ header {
   flex-wrap:wrap;
   flex-direction:row;
   justify-content: center;
+  width:80%;
+  margin: 0 auto;
 }
 
 
@@ -57,14 +61,30 @@ header {
   flex-wrap:wrap;
   justify-content:center;
   padding:10px;
+  width:80%;
+  margin: 0 auto;
+}
+.button-stuff p:first-of-type{
+  display:none;
 }
 button{
   margin-right:10px;
 }
+.content{
+  border:1px solid black;
+  padding:10px;
+  margin-left: 10px;
+}
 .weather{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-left: 20px;
+  margin-right:20px;
+  margin-bottom:20px;
+  padding:5px;
+  border:2px solid black;
+  align-content:space-evenly;
 }
 
 footer{
@@ -114,23 +134,43 @@ footer p{
 .today_img{
   max-width:100px;
   max-height:100px;
+  display:none;
   
 }
 
 .tomorrow_img{
   max-width:100px;
   max-height:100px;
-  
+  display:none;
 }
 
 .overmorrow_img{
   max-width:100px;
   max-height:100px;
-  
+  display:none;
 }
 
-
-
+.sunrise{
+  display:none;
+}
+.sunset{
+  display:none;
+}
+.windpseed{
+  display:none;
+}
+.desc{
+  grid-column:1;
+  grid-row:1;
+}
+.temp{
+  grid-column:1;
+  grid-row:2;
+}
+.humidity{
+  grid-column:1;
+  grid-row:3;
+}
 .logo{
   max-width:100px;
   max-height:100px;
