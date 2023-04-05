@@ -41,6 +41,7 @@ let f5calom;
 async function getProphetData1() {
     const response = await fetch(url);
     const data = await response.json();
+    console.table(data);
     return data;
 }
 let data = getProphetData1();
