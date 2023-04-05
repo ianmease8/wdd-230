@@ -152,7 +152,9 @@ formbutton.addEventListener('click', () =>{
     number.textContent = numberu.value;
     if (fruity1u.checked){
         fruity1.textContent = f1.textContent;
+        console.log(carbsm)
         carbsm = carbsm + f1carbs
+        console.log(carbsm)
         protm  = protm  + f1prots;
         fatm   = fatm   + f1fatsm;
         sugarm = sugarm + f1sugar;
