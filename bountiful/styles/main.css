@@ -63,7 +63,7 @@ header {
   padding:5px;
   border: 1px solid black;
   background-color:aliceblue;
-    border-radius:25px;
+  border-radius:25px;
   
 }
 
@@ -84,7 +84,8 @@ header {
 }
 button{
   margin-right:10px;
-  background-color:aliceblue;
+  background-color: #333; 
+  color: #fff;
   border:1px solid black;
   border-radius:25px;
   
@@ -160,13 +161,14 @@ footer a{
 }
 
 .img4{
+  display:none;
   width:90%;
   height:350px;
 }
 
 .today_img{
-  max-width:175px;
-  max-height:175px;
+  max-width:150px;
+  max-height:150px;
   display:none;
   grid-column:2;
   grid-row:2/4
