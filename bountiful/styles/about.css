@@ -23,6 +23,7 @@ main div{
   border:1px solid black;
   margin-top:10px;
   background-color:aliceblue;
+  border-radius:25px;
 }
 
 header {
