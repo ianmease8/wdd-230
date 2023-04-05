@@ -38,11 +38,11 @@ let currentdate = document.lastModified;
 document.querySelector('#modified').innerHTML = 'Last updated: ' + currentdate;
 
 
-if(!localStorage.getItem('count')){
-  localStorage.setItem('count',0)
-  document.querySelector('.count').innerHTML = 0;
+if(!localStorage.getItem('countt')){
+  localStorage.setItem('countt',0)
+  document.querySelector('.countt').innerHTML = 0;
 }
 else{
-  let log = localStorage.getItem('count');
-  document.querySelector(".count").innerHTML = log;
+  let log = localStorage.getItem('countt');
+  document.querySelector(".countt").innerHTML = log;
 }
