@@ -43,7 +43,7 @@ async function getProphetData1() {
     const data = await response.json();
     return data;
 }
-const data = getProphetData1();
+let data = getProphetData1();
 console.table(data);
 async function getProphetData() {
     const response = await fetch(url);
