@@ -90,7 +90,7 @@ button{
 .weather{
   display:grid;
   grid-template-columns:1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   margin-left: 20px;
   margin-right:20px;
   margin-bottom:20px;
@@ -178,17 +178,27 @@ footer a{
 .windpseed{
   display:none;
 }
-.desc{
+
+.today_header{
   grid-column:1;
+  grid-row:1
+}
+.forecast_header{
+  grid-column:2;
   grid-row:1;
 }
-.temp{
+
+.desc{
   grid-column:1;
   grid-row:2;
 }
-.humidity{
+.temp{
   grid-column:1;
   grid-row:3;
+}
+.humidity{
+  grid-column:1;
+  grid-row:4;
 }
 .logo{
   max-width:100px;
