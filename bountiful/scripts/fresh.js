@@ -1,14 +1,33 @@
 const url = "https://andejuli.github.io/wdd230/fruit.json"
 
-let fruit1 = math.floor(Math.random() * 38)
-let fruit2 = math.floor(Math.random() * 38)
-let fruit3 = math.floor(Math.random() * 38)
-let fruit4 = math.floor(Math.random() * 38)
-let fruit5 = math.floor(Math.random() * 38)
+async function getProphetData() {
+    const response = await fetch(url);
+    const data = await response.json();
+    console.table(data.companies);
 
-document.querySelector('.fruit1').innerHTML = fruit1h
-document.querySelector('.fruit2').innerHTML = fruit2h
-document.querySelector('.fruit3').innerHTML = fruit3h
-document.querySelector('.fruit4').innerHTML = fruit4h
-document.querySelector('.fruit5').innerHTML = fruit5h
+}
+    getProphetData();
 
+let firstfruit = data[0];
+
+let f1 = document.getElementsByClassName("f1");
+
+f1.textContent =firstfruit.name;
+
+
+
+
+
+
+
+
+
+
+
+let date = new Date();
+let year = date.getFullYear();
+let day = date.getDay();
+const now = new Date();
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
+let currentdate = document.lastModified;
+document.querySelector('#modified').innerHTML = 'Last updated: ' + currentdate;
