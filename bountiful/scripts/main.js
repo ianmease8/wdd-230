@@ -44,5 +44,5 @@ if(!localStorage.getItem('countt')){
 }
 else{
   let log = localStorage.getItem('countt');
-  document.querySelector(".countt").innerHTML = log;
+  document.querySelector(".count").innerHTML = log;
 }
