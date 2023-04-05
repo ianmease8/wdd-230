@@ -36,3 +36,13 @@ const now = new Date();
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
 let currentdate = document.lastModified;
 document.querySelector('#modified').innerHTML = 'Last updated: ' + currentdate;
+
+
+if(!localStorage.getItem('count')){
+  localStorage.setItem('count',0)
+  document.querySelector('.count').innerHTML = 0;
+}
+else{
+  let log = localStorage.getItem('count');
+  document.querySelector(".count").innerHTML = log;
+}

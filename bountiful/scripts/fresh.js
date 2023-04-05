@@ -139,12 +139,10 @@ let f5 = document.querySelector(".f5");
 formbutton.addEventListener('click', () =>{
     if(!localStorage.getItem('count')){
         localStorage.setItem('count',0)
-        document.querySelector('.count').innerHTML = 0;
     }
     else{
         let log = localStorage.getItem('count');
         let diff = 1 + log
-        document.querySelector(".count").innerHTML = diff;
         localStorage.setItem('lastVisit', diff);
     }
     const firstnameu = document.querySelector('input[name="fname"]');
