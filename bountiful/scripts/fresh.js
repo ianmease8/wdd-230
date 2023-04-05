@@ -7,13 +7,14 @@ async function getProphetData() {
     console.table(data.companies);
 
 }
+
     getProphetData();
 
-let firstfruit = data[0];
+    let firstfruit = data[0];
 
-let f1 = document.querySelector(".f1");
+    let f1 = document.querySelector(".f1");
 
-f1.textContent =firstfruit.name;
+    f1.textContent =firstfruit.name;
 
 
 
