@@ -70,10 +70,33 @@ async function getProphetData() {
     f1sugar = f1nuts.sugar;
     f1calom = f1nuts.calories;
     f2.textContent = secondfruit.name;
+    f2nuts = secondfruit.nutritions;
+    f2carbs = f2nuts.carbohydrates;
+    f2prots = f2nuts.protein;
+    f2fatsm = f2nuts.fat;
+    f2sugar = f2nuts.sugar;
+    f2calom = f2nuts.calories;
     f3.textContent = thirdfruit.name;
+    f3nuts = thirdfruit.nutritions;
+    f3carbs = f3nuts.carbohydrates;
+    f3prots = f3nuts.protein;
+    f3fatsm = f3nuts.fat;
+    f3sugar = f3nuts.sugar;
+    f3calom = f3nuts.calories;
     f4.textContent = fourthfruit.name;
+    f4nuts = fourthfruit.nutritions; 
+    f4carbs = f4nuts.carbohydrates;
+    f4prots = f4nuts.protein;
+    f4fatsm = f4nuts.fat;
+    f4sugar = f4nuts.sugar;
+    f4calom = f4nuts.calories;
     f5.textContent = fifthfruit.name;
-
+    f5nuts = fifthfruit.nutritions;
+    f5carbs = f5nuts.carbohydrates;
+    f5prots = f5nuts.protein;
+    f5fatsm = f5nuts.fat;
+    f5sugar = f5nuts.sugar;
+    f5calom = f5nuts.calories;
 }
 
 getProphetData();
@@ -110,41 +133,6 @@ let f3 = document.querySelector(".f3");
 let f4 = document.querySelector(".f4");
 let f5 = document.querySelector(".f5");
 
-
-// let firstfruit = data[0];
-
-
-let secondfruit = data[1];
-f2nuts = secondfruit.nutritions;
-f2carbs = f2nuts.carbohydrates;
-f2prots = f2nuts.protein;
-f2fatsm = f2nuts.fat;
-f2sugar = f2nuts.sugar;
-f2calom = f2nuts.calories;
-
-let thirdfruit = data[2];
-f3nuts = thirdfruit.nutritions;
-f3carbs = f3nuts.carbohydrates;
-f3prots = f3nuts.protein;
-f3fatsm = f3nuts.fat;
-f3sugar = f3nuts.sugar;
-f3calom = f3nuts.calories;
-
-let fourthfruit = data[3];
-f4nuts = fourthfruit.nutritions; 
-f4carbs = f4nuts.carbohydrates;
-f4prots = f4nuts.protein;
-f4fatsm = f4nuts.fat;
-f4sugar = f4nuts.sugar;
-f4calom = f4nuts.calories;
-
-let fifthfruit = data[4];
-f5nuts = fifthfruit.nutritions;
-f5carbs = f5nuts.carbohydrates;
-f5prots = f5nuts.protein;
-f5fatsm = f5nuts.fat;
-f5sugar = f5nuts.sugar;
-f5calom = f5nuts.calories;
 
 
 formbutton.addEventListener('click', () =>{
