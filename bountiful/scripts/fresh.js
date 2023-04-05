@@ -65,6 +65,7 @@ async function getProphetData() {
     f1.textContent = firstfruit.name;
     f1nuts = firstfruit.nutritions;
     f1carbs = f1nuts.carbohydrates;
+    console.log(f1carbs)
     f1prots = f1nuts.protein;
     f1fatsm = f1nuts.fat;
     f1sugar = f1nuts.sugar;
