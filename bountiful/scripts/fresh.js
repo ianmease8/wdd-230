@@ -1,5 +1,44 @@
 const url = "https://andejuli.github.io/wdd230/fruit.json"
 
+let carbsm;
+let protm;
+let fatm;
+let sugarm;
+let calom;
+
+
+let f1carbs;
+let f1prots;
+let f1fatsm;
+let f1sugar;
+let f1calom;
+
+let f2carbs;
+let f2prots;
+let f2fatsm;
+let f2sugar;
+let f2calom;
+
+let f3carbs;
+let f3prots;
+let f3fatsm;
+let f3sugar;
+let f3calom;
+
+let f4carbs;
+let f4prots;
+let f4fatsm;
+let f4sugar;
+let f4calom;
+
+
+let f5carbs;
+let f5prots;
+let f5fatsm;
+let f5sugar;
+let f5calom;
+
+
 
 async function getProphetData() {
     const response = await fetch(url);
@@ -24,8 +63,17 @@ async function getProphetData() {
     f5.textContent = fifthfruit.name;
 
 }
-
+async function getProphetData1() {
+    const response = await fetch(url);
+    const data = await response.json();
+    return data;
+}
 getProphetData();
+const data = getProphetData1();
+
+
+
+
 
 
 const formbutton = document.querySelector('.formbutton');
@@ -54,6 +102,48 @@ let f3 = document.querySelector(".f3");
 let f4 = document.querySelector(".f4");
 let f5 = document.querySelector(".f5");
 
+
+let firstfruit = data[0];
+f1nuts = firstfruit.nutritions 
+f1carbs = f1nuts.carbohydrates;
+f1prots = f1nuts.protein;
+f1fatsm = f1nuts.fat;
+f1sugar = f1nuts.sugar;
+f1calom = f1nuts.calories;
+
+let secondfruit = data[1];
+f2nuts = secondfruit.nutritions 
+f2carbs = f2nuts.carbohydrates;
+f2prots = f2nuts.protein;
+f2fatsm = f2nuts.fat;
+f2sugar = f2nuts.sugar;
+f2calom = f2nuts.calories;
+
+let thirdfruit = data[2];
+f3nuts = thirdfruit.nutritions 
+f3carbs = f3nuts.carbohydrates;
+f3prots = f3nuts.protein;
+f3fatsm = f3nuts.fat;
+f3sugar = f3nuts.sugar;
+f3calom = f3nuts.calories;
+
+let fourthfruit = data[3];
+f4nuts = fourthfruit.nutritions 
+f4carbs = f4nuts.carbohydrates;
+f4prots = f4nuts.protein;
+f4fatsm = f4nuts.fat;
+f4sugar = f4nuts.sugar;
+f4calom = f4nuts.calories;
+
+let fifthfruit = data[4];
+f5nuts = fifthfruit.nutritions 
+f5carbs = f5nuts.carbohydrates;
+f5prots = f5nuts.protein;
+f5fatsm = f5nuts.fat;
+f5sugar = f5nuts.sugar;
+f5calom = f5nuts.calories;
+
+
 formbutton.addEventListener('click', () =>{
     const firstnameu = document.querySelector('input[name="fname"]');
     const emailu = document.querySelector('input[name="email"]');
@@ -70,27 +160,52 @@ formbutton.addEventListener('click', () =>{
     email.textContent = emailu.value;
     number.textContent = numberu.value;
     if (fruity1u.checked){
-        fruity1.textContent = f1.textContent
+        fruity1.textContent = f1.textContent;
+        carbsm = carbsm + f1carbs
+        protm  = protm  + f1prots;
+        fatm   = fatm   + f1fatsm;
+        sugarm = sugarm + f1sugar;
+        calom  = calom  + f1calom;
     } else{
         fruity1.textContent = "not selected"
     }
     if (fruity2u.checked){
-        fruity2.textContent = f2.textContent
+        fruity2.textContent = f2.textContent;
+        carbsm = carbsm + f2carbs
+        protm  = protm  + f2prots;
+        fatm   = fatm   + f2fatsm;
+        sugarm = sugarm + f2sugar;
+        calom  = calom  + f2calom;
     } else{
         fruity2.textContent = "not selected"
     }
     if (fruity3u.checked){
-        fruity3.textContent = f3.textContent
+        fruity3.textContent = f3.textContent;
+        carbsm = carbsm + f3carbs
+        protm  = protm  + f3prots;
+        fatm   = fatm   + f3fatsm;
+        sugarm = sugarm + f3sugar;
+        calom  = calom  + f3calom;
     } else{
         fruity3.textContent = "not selected"
     }
     if (fruity4u.checked){
-        fruity4.textContent = f4.textContent
+        fruity4.textContent = f4.textContent;
+        carbsm = carbsm + f4carbs
+        protm  = protm  + f4prots;
+        fatm   = fatm   + f4fatsm;
+        sugarm = sugarm + f4sugar;
+        calom  = calom  + f4calom;
     } else{
         fruity4.textContent = "not selected"
     }
     if (fruity5u.checked){
-        fruity5.textContent = f5.textContent
+        fruity5.textContent = f5.textContent;
+        carbsm = carbsm + f5carbs
+        protm  = protm  + f5prots;
+        fatm   = fatm   + f5fatsm;
+        sugarm = sugarm + f5sugar;
+        calom  = calom  + f5calom;
     } else{
         fruity5.textContent = "not selected"
     }
@@ -101,7 +216,12 @@ formbutton.addEventListener('click', () =>{
     // fruity5.textContent = fruity5u.value;
     info.textContent = infou2
 
-
+    const info = document.querySelector('.info');
+    carbs.textContent = carbsm;
+    protein.textContent = protm;
+    fat.textContent = fatm;
+    sugar.textContent = sugarm;
+    calories.textContent = calom;
 
 
 
