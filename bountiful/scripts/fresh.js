@@ -44,6 +44,7 @@ async function getProphetData1() {
     return data;
 }
 const data = getProphetData1();
+console.table(data);
 async function getProphetData() {
     const response = await fetch(url);
     const data = await response.json();
