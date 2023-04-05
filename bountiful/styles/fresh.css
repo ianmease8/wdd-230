@@ -28,6 +28,9 @@ header {
     text-decoration: none; 
   }
 
+.form{
+    display:block;
+}
 
 form fieldset{
     padding: .5rem 3%;
@@ -99,6 +102,12 @@ footer{
     max-height:100px;
     
   }
+
+.visible{
+    display:none;
+}
+
+
 
   @media screen and (min-width: 1000px){
     .rightimg{

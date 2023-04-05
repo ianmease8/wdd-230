@@ -18,7 +18,7 @@
             <a href="#contact">contact</a>
         </nav>
     </header>
-    <form method="get" action="#">
+    <form class="form" method="get" action="#">
         <fieldset class="one">
             <legend>Drink maker</legend>
             <label class="top">First Name* <input type="text" name="fname" required></label> 
@@ -34,9 +34,27 @@
         </fieldset>
         <fieldset>
             <p>Custom information about this order</p>
-            <textarea name="custom" id="customer"></textarea>
+            <textarea class="tainfo" name="custom" id="customer"></textarea>
         </fieldset>
     </form>
+    <button class="formbutton" type="button">Click to learn about your drink</button>
+    <main class="visible">
+        <p>your first name is: <span class="firstname"></span></p>
+        <p>your email is: <span class="email"></span></p>
+        <p>your number is: <span class="number"></span></p>
+        <p>your fruit1 is: <span class="fruity1"></span></p>
+        <p>your fruit2 is: <span class="fruity2"></span></p>
+        <p>your fruit3 is: <span class="fruity3"></span></p>
+        <p>your fruit4 is: <span class="fruity4"></span></p>
+        <p>your fruit5 is: <span class="fruity5"></span></p>
+        <p>your instructions are: <span class="info"></span></p>
+        <p>your total carbohydrates are:<span class="carbs"></span></p>
+        <p>your total protein is:<span class="protein"></span></p>
+        <p>your total fat is:<span class="fat"></span></p>
+        <p>your total sugar is:<span class="sugar"></span></p>
+        <p>your total calories are:<span class="calories"></span></p>
+        <button class="clearbutton" type="button" onclick="window.location.href='https://ianmease8.github.io/wdd-230/bountiful/fresh.html';">click here to make another drink</button>
+    </main>
     <footer>
         <img class="logo leftimg" src="/wdd-230/bountiful/images/logo-winner.png" alt="bountiful foods logo">
         <p class="leftfoot"><a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
