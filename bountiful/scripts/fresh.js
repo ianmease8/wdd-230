@@ -38,9 +38,9 @@ let f5fatsm;
 let f5sugar;
 let f5calom;
 
-async function getProphetData1() {
-    const response = await fetch(url);
-    const data = await response.json();
+function getProphetData1() {
+    const response = fetch(url);
+    const data = response.json();
     console.table(data);
     return data;
 }
