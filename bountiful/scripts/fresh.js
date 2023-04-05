@@ -1,10 +1,10 @@
 const url = "https://andejuli.github.io/wdd230/fruit.json"
 
-let carbsm;
-let protm;
-let fatm;
-let sugarm;
-let calom;
+let carbsm = 0;
+let protm = 0;
+let fatm = 0;
+let sugarm = 0;
+let calom = 0;
 
 
 let f1carbs;
