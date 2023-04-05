@@ -38,14 +38,14 @@ let f5fatsm;
 let f5sugar;
 let f5calom;
 
-function getProphetData1() {
-    const response = fetch(url);
-    const data = response.json();
-    console.table(data);
-    return data;
-}
-let data = getProphetData1();
-console.table(data);
+// function getProphetData1() {
+//     const response = fetch(url);
+//     const data = response.json();
+//     console.table(data);
+//     return data;
+// }
+// let data = getProphetData1();
+// console.table(data);
 async function getProphetData() {
     const response = await fetch(url);
     const data = await response.json();
@@ -63,6 +63,12 @@ async function getProphetData() {
     let f5 = document.querySelector(".f5");
 
     f1.textContent = firstfruit.name;
+    f1nuts = firstfruit.nutritions;
+    f1carbs = f1nuts.carbohydrates;
+    f1prots = f1nuts.protein;
+    f1fatsm = f1nuts.fat;
+    f1sugar = f1nuts.sugar;
+    f1calom = f1nuts.calories;
     f2.textContent = secondfruit.name;
     f3.textContent = thirdfruit.name;
     f4.textContent = fourthfruit.name;
@@ -105,13 +111,8 @@ let f4 = document.querySelector(".f4");
 let f5 = document.querySelector(".f5");
 
 
-let firstfruit = data[0];
-f1nuts = firstfruit.nutritions;
-f1carbs = f1nuts.carbohydrates;
-f1prots = f1nuts.protein;
-f1fatsm = f1nuts.fat;
-f1sugar = f1nuts.sugar;
-f1calom = f1nuts.calories;
+// let firstfruit = data[0];
+
 
 let secondfruit = data[1];
 f2nuts = secondfruit.nutritions;
