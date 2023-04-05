@@ -10,7 +10,7 @@ async function getProphetData() {
 }
 
     const fruits = await getProphetData();
-
+    console.table(fruits)
     let firstfruit = fruits[0];
 
     let f1 = document.querySelector(".f1");
