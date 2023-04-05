@@ -79,7 +79,7 @@ formbutton.addEventListener('click', () =>{
 
 
 
-    visible.style.display = "flex";
+    visible.style.display = "block";
     formers.style.display = "none";
   
   });
