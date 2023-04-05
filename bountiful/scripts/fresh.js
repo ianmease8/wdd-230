@@ -69,6 +69,7 @@ formbutton.addEventListener('click', () =>{
     fruity3.textContent = fruity3u.value;
     fruity4.textContent = fruity4u.value;
     fruity5.textContent = fruity5u.value;
+    info.textContent = infou2
 
 
 
