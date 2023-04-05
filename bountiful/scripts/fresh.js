@@ -231,7 +231,7 @@ formbutton.addEventListener('click', () =>{
 
     visible.style.display = "block";
     formers.style.display = "none";
-  
+    formbutton.style.display = "none";
   });
 
 
