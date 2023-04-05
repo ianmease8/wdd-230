@@ -9,9 +9,9 @@ async function getProphetData() {
 
 }
 
-    getProphetData();
+    const fruits =getProphetData();
 
-    let firstfruit = data[0];
+    let firstfruit = fruits[0];
 
     let f1 = document.querySelector(".f1");
 
