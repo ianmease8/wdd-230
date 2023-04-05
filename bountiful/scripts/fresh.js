@@ -48,6 +48,11 @@ const fat = document.querySelector('.fat');
 const sugar = document.querySelector('.sugar');
 const calories = document.querySelector('.calories');
 
+let f1 = document.querySelector(".f1");
+let f2 = document.querySelector(".f2");
+let f3 = document.querySelector(".f3");
+let f4 = document.querySelector(".f4");
+let f5 = document.querySelector(".f5");
 
 formbutton.addEventListener('click', () =>{
     const firstnameu = document.querySelector('input[name="fname"]');
@@ -64,7 +69,12 @@ formbutton.addEventListener('click', () =>{
     firstname.textContent = firstnameu.value;
     email.textContent = emailu.value;
     number.textContent = numberu.value;
-    fruity1.textContent = fruity1u.value;
+    if (fruity1u.checked){
+        fruity1.textContent = f1.textContent
+    } else{
+        fruity1.textContent = "not selected"
+    }
+    // fruity1.textContent = fruity1u.value;
     fruity2.textContent = fruity2u.value;
     fruity3.textContent = fruity3u.value;
     fruity4.textContent = fruity4u.value;
