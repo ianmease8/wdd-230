@@ -93,7 +93,11 @@ footer{
   #contact{
     display:block
   }
-
+  .logo{
+    max-width:100px;
+    max-height:100px;
+    
+  }
 
   @media screen and (min-width: 1000px){
     .rightimg{
