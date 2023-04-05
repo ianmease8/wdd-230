@@ -4,6 +4,26 @@ p h1 h2{
     font-family: 'Space Mono', monospace;
 }
 
+main{
+  margin-top:10px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:column;
+  
+}
+
+main div{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:column;
+  max-width:80%;
+  padding:5px;
+  border:1px solid black;
+  margin-top:10px;
+  background-color:aliceblue;
+}
 
 header {
     background-color: #333; 
@@ -38,12 +58,13 @@ footer{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-    background-color:aliceblue;
+    background-color:#333;
     padding:10px;
-    
+    margin-top: 10px
   }
   
 footer p{
+    color:white;
     display:flex;
     flex-wrap:wrap;
     flex-direction:column;
@@ -53,8 +74,10 @@ footer p{
 .rightimg{
     display:none;
   }
-  
-  
+
+footer a{
+    color:white;
+}
 #contact{
     display:block
   }

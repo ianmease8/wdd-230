@@ -91,12 +91,13 @@ footer{
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
-  background-color:aliceblue;
+  background-color:#333;
   padding:10px;
-  
+  margin-top: 10px
 }
 
 footer p{
+  color:white;
   display:flex;
   flex-wrap:wrap;
   flex-direction:column;
@@ -105,6 +106,10 @@ footer p{
 }
 .rightimg{
   display:none;
+}
+
+footer a{
+  color:white;
 }
 
 
