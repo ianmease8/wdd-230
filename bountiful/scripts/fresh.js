@@ -1,4 +1,5 @@
 const url = "https://andejuli.github.io/wdd230/fruit.json"
+let data;
 
 async function getProphetData() {
     const response = await fetch(url);
@@ -10,7 +11,7 @@ async function getProphetData() {
 
 let firstfruit = data[0];
 
-let f1 = document.getElementsByClassName("f1");
+let f1 = document.querySelector(".f1");
 
 f1.textContent =firstfruit.name;
 
