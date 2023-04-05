@@ -104,7 +104,7 @@ let f5 = document.querySelector(".f5");
 
 
 let firstfruit = data[0];
-f1nuts = firstfruit.nutritions 
+f1nuts = firstfruit.nutritions;
 f1carbs = f1nuts.carbohydrates;
 f1prots = f1nuts.protein;
 f1fatsm = f1nuts.fat;
@@ -112,7 +112,7 @@ f1sugar = f1nuts.sugar;
 f1calom = f1nuts.calories;
 
 let secondfruit = data[1];
-f2nuts = secondfruit.nutritions 
+f2nuts = secondfruit.nutritions;
 f2carbs = f2nuts.carbohydrates;
 f2prots = f2nuts.protein;
 f2fatsm = f2nuts.fat;
@@ -120,7 +120,7 @@ f2sugar = f2nuts.sugar;
 f2calom = f2nuts.calories;
 
 let thirdfruit = data[2];
-f3nuts = thirdfruit.nutritions 
+f3nuts = thirdfruit.nutritions;
 f3carbs = f3nuts.carbohydrates;
 f3prots = f3nuts.protein;
 f3fatsm = f3nuts.fat;
@@ -128,7 +128,7 @@ f3sugar = f3nuts.sugar;
 f3calom = f3nuts.calories;
 
 let fourthfruit = data[3];
-f4nuts = fourthfruit.nutritions 
+f4nuts = fourthfruit.nutritions; 
 f4carbs = f4nuts.carbohydrates;
 f4prots = f4nuts.protein;
 f4fatsm = f4nuts.fat;
@@ -136,7 +136,7 @@ f4sugar = f4nuts.sugar;
 f4calom = f4nuts.calories;
 
 let fifthfruit = data[4];
-f5nuts = fifthfruit.nutritions 
+f5nuts = fifthfruit.nutritions;
 f5carbs = f5nuts.carbohydrates;
 f5prots = f5nuts.protein;
 f5fatsm = f5nuts.fat;
