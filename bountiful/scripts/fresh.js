@@ -49,7 +49,7 @@ const sugar = document.querySelector('.sugar');
 const calories = document.querySelector('.calories');
 
 
-cardbutton.addEventListener('click', () =>{
+formbutton.addEventListener('click', () =>{
     const firstnameu = document.querySelector('input[name="fname"]');
     const emailu = document.querySelector('input[name="email"]');
     const numberu = document.querySelector('input[name="phone"]');
