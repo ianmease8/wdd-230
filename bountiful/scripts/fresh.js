@@ -11,11 +11,11 @@ async function getProphetData() {
 
     const fruits = await getProphetData();
 
-    let firstfruit = fruits[0];
+    let firstfruit = await fruits[0];
 
     let f1 = document.querySelector(".f1");
 
-    f1.textContent =firstfruit.name;
+    f1.textContent = firstfruit.name;
 
 
 
